@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kriteria Lulus SMK</title>
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .kotak {
+        width: 400px;
+        border: 2px solid #000;
+        padding: 20px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div class="kotak">
+        <center><h2>Kriteria Lulus SMK</h2></center>
+
+        <form action="process.php" method="post">
+            <label>Nama:</label><br>
+            <input type="text" name="nama" required><br><br>
+
+            <label>NISN:</label><br>
+            <input type="number" name="nisn" required><br><br>
+
+            <label>Nilai Bahasa Indonesia:</label><br>
+            <input type="number" name="bindo" required><br><br>
+
+            <label>Nilai Matematika:</label><br>
+            <input type="number" name="mtk" required><br><br>
+
+            <label>Nilai Bahasa Inggris:</label><br>
+            <input type="number" name="bing" required><br><br>
+
+            <label>Nilai Kejuruan:</label><br>
+            <input type="number" name="kejuruan" required><br><br>
+
+            <label>Nilai Informatika:</label><br>
+            <input type="number" name="infor" required><br><br>
+
+            <label>Nilai IPAS:</label><br>
+            <input type="number" name="ipas" required><br><br>
+
+            <label>Nilai PJOK:</label><br>
+            <input type="number" name="pjok" required><br><br>
+
+            <label>Nilai Seni Budaya:</label><br>
+            <input type="number" name="seni" required><br><br>
+
+            <label>Nilai Sejarah:</label><br>
+            <input type="number" name="sejarah" required><br><br>
+
+            <label>Nilai Bahasa Jawa:</label><br>
+            <input type="number" name="jawa" required><br><br>
+
+            <label>Nilai PAI:</label><br>
+            <input type="number" name="pai" required><br><br>
+
+            <label>Nilai PPKN:</label><br>
+            <input type="number" name="pkn" required><br><br>
+
+            <label>Nilai Koding dan Kecerdasan Artificial:</label><br>
+            <input type="number" name="kka" required><br><br>
+
+
+            <center>
+            <button type="submit" name="proses" required>
+                <font size="12" >Proses</font>
+            </button>
+            </center>
+        </form>
+    </div>
+
+</body>
+
+</html>
