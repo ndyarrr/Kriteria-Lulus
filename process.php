@@ -19,20 +19,20 @@ $kkm = 75;
 $rata = ($bindo + $mtk + $bing + $kejuruan + $kka + $ipas + $infor + $pjok + $seni + $sejarah + $jawa + $pai + $pkn) / 13 ;
 
 if (
-    $rata > 75 &&
-    $bindo > $kkm &&
-    $mtk > $kkm &&
-    $bing > $kkm &&
-    $kejuruan > $kkm &&
-    $kka > $kkm &&
-    $ipas > $kkm &&
-    $infor > $kkm &&
-    $pjok > $kkm &&
-    $seni > $kkm &&
-    $sejarah > $kkm &&
-    $jawa > $kkm &&
-    $pai > $kkm &&
-    $pkn > $kkm
+    $rata >= $kkm &&
+    $bindo >= $kkm &&
+    $mtk >= $kkm &&
+    $bing >= $kkm &&
+    $kejuruan >= $kkm &&
+    $kka >= $kkm &&
+    $ipas >= $kkm &&
+    $infor >= $kkm &&
+    $pjok >= $kkm &&
+    $seni >= $kkm &&
+    $sejarah >= $kkm &&
+    $jawa >= $kkm &&
+    $pai >= $kkm &&
+    $pkn >= $kkm
 ) {
     $status = "<span style='color:green'>LULUS</span>";
 } else {
